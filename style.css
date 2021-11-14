@@ -2,7 +2,7 @@
     
     font-family: "PlayfairDisplay"; 
     
-    src: url("/fonts/PlayfairDisplay-Regular.ttf") format("truetype"); 
+    src: url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
     } 
@@ -27,6 +27,7 @@
     a{
         color: gray;
         text-decoration: none;
+        text-transform: uppercase;
     }
     /* menu */
 
@@ -86,6 +87,7 @@ margin-right: 125px;
 }
 .blog-paragraf{
     margin-top: 40px;
+    font-size: 14px;
 }
 /* footer */
 .loadmore-button {
