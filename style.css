@@ -28,20 +28,23 @@
         color: gray;
         text-decoration: none;
         text-transform: uppercase;
+        webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
     /* menu */
 
     header, main,footer{
-        width: 905px;
+width: 905px;
 margin: 0 auto;
 max-width: 100%;
     }
     header{
          padding-top:75px;
-         padding-bottom: 75px;
          text-align: center;
     }
 
+    main{
+        text-align: center;
+    }
 
 .menu{
    
@@ -71,12 +74,12 @@ margin-left: 62.5px;
 .article-blog{
     display: inline-block;
     width: 49%;
-    margin-bottom: 130px;
-    
+    margin-bottom: 135px;
+    text-align: start;
 }
 
 .blog-img {
-    width: 420px;
+    
     height: 280px;
     width: 100%;
 }
